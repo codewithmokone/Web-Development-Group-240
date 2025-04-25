@@ -1,0 +1,61 @@
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styling */
+header {
+    width: 100%;
+    background-color: #162A2E;
+    opacity: 0.9;
+    
+}
+
+/* header container */
+header div {
+    width: 1280px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 6px;
+    margin-inline: auto;
+}
+
+/* logo styling */
+#logo {
+    color: #ffffff;
+}
+
+/* navlinks styling */
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.active{
+    color: #ffffff;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+section > div {
+    width: 1280px;
+}
+
+#hero-section {
+    min-height: 600px;
+    background-color: #162A2E;
+    opacity: 0.9;
+
+}
