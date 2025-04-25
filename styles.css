@@ -44,6 +44,7 @@ nav a {
     color: #ffffff;
 }
 
+
 section {
     width: 100%;
     min-height: 100vh;
@@ -51,11 +52,61 @@ section {
 
 section > div {
     width: 1280px;
+    margin-inline: auto;
 }
 
+
+/* hero section styling */
 #hero-section {
     min-height: 600px;
     background-color: #162A2E;
     opacity: 0.9;
-
 }
+
+#hero-container div {
+    width: 50%;
+}
+
+#hero-info {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#hero-h2 {
+    font-size: 90px;
+    color: #ffffff;
+}
+
+#hero-first-p {
+    color:#ffffff;
+    font-size: 38px;
+}
+
+#hero-info p {
+    color: #ffffff;
+    font-size: 20;
+    line-height: 22px;
+}
+
+/* hero hire me button styling */
+#hero-hire-btn {
+    color: #ffffff;
+    background-color: #087E69;
+    border: 1px solid #087E69;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* hero portfolio button styling */
+#hero-portfolio-btn {
+    color: #ffffff;
+    background-color: #344648;
+    border: 1px solid #6F797A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 6px;
+}
+
