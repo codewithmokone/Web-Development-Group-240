@@ -31,6 +31,7 @@ header div {
 /* navlinks styling */
 nav {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -58,7 +59,7 @@ section > div {
 
 /* hero section styling */
 #hero-section {
-    min-height: 600px;
+    min-height: 500px;
     background-color: #162A2E;
     opacity: 0.9;
 }
@@ -92,7 +93,7 @@ section > div {
 }
 
 /* hero hire me button styling */
-#hero-hire-btn {
+.hire-btn {
     color: #ffffff;
     background-color: #087E69;
     border: 1px solid #087E69;
@@ -108,5 +109,52 @@ section > div {
     border-radius: 20px;
     padding: 10px 20px;
     margin-left: 6px;
+}
+
+/* footer styling */
+#footer-contact-info{
+    color: #ffffff;
+    min-height: 160px;
+    background-color: #061E24;
+}
+
+#contact-info{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#contact-info ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+#footer-copyright {
+    min-height: 60px;
+    background-color: #02191E ;
+}
+
+#copyright {
+    width: 1280px;
+    height: 60px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#copyright ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.social-icons img {
+ width: 20px;
+ height: 20px;
 }
 
