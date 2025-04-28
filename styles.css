@@ -45,7 +45,12 @@ nav a {
     color: #ffffff;
 }
 
+.navbar-icons {
+    width: 20px;
+    height: 20px;
+}
 
+/* Section Main Styling */
 section {
     width: 100%;
     min-height: 100vh;
@@ -316,6 +321,7 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 
 .progress-bar {
@@ -328,7 +334,66 @@ hr {
     background-color: whitesmoke;
 }
 
-/* footer styling */
+/* Stats Styling */
+#stats-section {
+    width: 100%;
+    min-height: auto;
+}
+
+#stats-container {
+    width: 1280px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.stats-item h3 {
+    font-size: 30px;
+}
+
+.stats-item p {
+    font-size: 18px;
+    color: #6F797A;
+}
+
+/* Work Section */
+#work-section {
+    width: 100%;
+    min-height: auto;
+    background-color: #F6F6F6;
+}
+
+#work-container {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 68px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.work-list img {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
 #footer-contact-info{
     color: #ffffff;
     min-height: 160px;
@@ -343,6 +408,16 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+#contact-info li {
+    display: flex;
+    gap: 8px;
+}
+
+.address-icons {
+    width: 20px;
+    height: 20px;
 }
 
 #contact-info ul{
