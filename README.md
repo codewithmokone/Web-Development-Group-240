@@ -1,8 +1,5 @@
 # Web-Development-Group-240
 
-# Group Project 
-
-
 ## Group Project - Portfolio
 Welcome to our Group Project! This repository showcases a project built by our team, demonstrating our skills in design, development, and teamwork.
 
@@ -11,6 +8,7 @@ Welcome to our Group Project! This repository showcases a project built by our t
 We are a team of passionate developers and designers who collaborated to create impactful projects. Each project highlights different aspects of our technical and creative abilities.
 
 ### Team Members:
+Joshua Mwanthi - mwanthijoshua100@gmail.com
 
 Simon Lephoto - simonlephotojr@gmail.com
 

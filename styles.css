@@ -334,6 +334,50 @@ hr {
     background-color: whitesmoke;
 }
 
+/* More skills section */
+#more-skills-section {
+    width: 100%;
+    min-height: auto;
+    background-color: #F6F6F6;
+}
+
+#more-skills-container {
+    width: 1280px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 48px 0;
+}
+
+.skill-item {
+    width: 260px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px;
+    gap: 10px;
+}
+
+.item-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.item-body p {
+    width: 80%;
+    margin-left: 28px;
+}
+
 /* Stats Styling */
 #stats-section {
     width: 100%;
@@ -454,5 +498,22 @@ hr {
 .social-icons img {
  width: 20px;
  height: 20px;
+}
+
+.footer-alink {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #087E69;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.footer-alink img {
+    width: 20px;
+    height: 20px;
 }
 
