@@ -111,6 +111,41 @@ section > div {
     margin-left: 6px;
 }
 
+/*----- biography-section ------*/
+#biography-section{
+    width: 100%;
+}
+
+#biography-container {
+    width: 1280px;
+    display: flex;
+
+    padding: 68px 0;
+
+}
+
+#biography-container div {
+    width: 50%;
+}
+
+#biography-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#bio-image {
+    width: 400px;
+    height: 600px;
+    background-color: #6F797A;
+}
+
+#contact-info {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    list-style: none;
+}
+
 /* footer styling */
 #footer-contact-info{
     color: #ffffff;
