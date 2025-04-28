@@ -18,7 +18,7 @@ Description: Brief overview of the project.
 
 - Tech Stack: HTML5 and CSS3
 
-- Live Demo: Link
+- Live Demo: phenomenal-crostata-2f4730.netlify.app
 
 
 ### Technologies Used
