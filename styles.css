@@ -7,9 +7,9 @@
 /* header styling */
 header {
     width: 100%;
+    background-color: none;
     background-color: #162A2E;
-    opacity: 0.9;
-    
+    /* opacity: 0.2; */
 }
 
 /* header container */
@@ -65,8 +65,19 @@ section > div {
 /* hero section styling */
 #hero-section {
     min-height: 500px;
-    background-color: #162A2E;
+    /* background-color: #162A2E; */
+    background-image: url('../assets/images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(22, 42, 46, 1);
+    background-blend-mode: multiply;
     opacity: 0.9;
+    z-index: 1;
+
+}
+
+#hero-container {
+    display: flex;
 }
 
 #hero-container div {
@@ -104,6 +115,7 @@ section > div {
     border: 1px solid #087E69;
     border-radius: 20px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 /* hero portfolio button styling */
@@ -114,6 +126,17 @@ section > div {
     border-radius: 20px;
     padding: 10px 20px;
     margin-left: 6px;
+}
+
+#hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-image img {
+    width: 450px;
+    height: 600px;
 }
 
 /*----- biography-section ------*/
@@ -211,6 +234,7 @@ hr {
     border: 1px solid #13C173;
     border-radius: 20px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 
@@ -314,7 +338,16 @@ hr {
     width: 450px;
     height: 550px;
     background-color: #6F797A;
+    background-image: url('/assets/images/pexels-leeloothefirst-7610446.jpg');
+    background-position: center;
     border-radius: 10px;
+}
+
+#skills-image-item {
+    width: 450px;
+    height: 90px;
+    background-color: #ffffff;
+    margin-top: 124px;
 }
 
 #skills-level{
@@ -345,12 +378,20 @@ hr {
 #more-skills-container {
     width: 1280px;
     height: 500px;
+    display: flex;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 48px 0;
+}
+
+.more-skills-list {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 48px 0;
+    /* gap: 4px; */
 }
 
 .skill-item {
@@ -359,7 +400,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 20px;
+    padding: 4px 16px;
     gap: 10px;
 }
 
@@ -377,6 +418,11 @@ hr {
 .item-body p {
     width: 80%;
     margin-left: 28px;
+}
+
+#more-skills-image img {
+    width: 450px;
+    height: 600px;
 }
 
 /* Stats Styling */
