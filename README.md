@@ -8,6 +8,8 @@ Welcome to our Group Project! This repository showcases a project built by our t
 We are a team of passionate developers and designers who collaborated to create impactful projects. Each project highlights different aspects of our technical and creative abilities.
 
 ### Team Members:
+Eliud Ndiege - eliud8790@gmail.com
+
 Joshua Mwanthi - mwanthijoshua100@gmail.com
 
 Simon Lephoto - simonlephotojr@gmail.com
@@ -18,7 +20,7 @@ Description: Brief overview of the project.
 
 - Tech Stack: HTML5 and CSS3
 
-- Live Demo: phenomenal-crostata-2f4730.netlify.app
+- Live Demo: (https://phenomenal-crostata-2f4730.netlify.app/)
 
 
 ### Technologies Used
